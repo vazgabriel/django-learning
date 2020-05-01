@@ -11,6 +11,15 @@ Then Just run
 docker-compose up
 ```
 
+## Use Docker Shell
+
+For exec makemigrations, migrations, etc... You may use Docker Shell
+
+```bash
+docker ps # Get docker info
+docker exec -it <docker-id> bash -l
+```
+
 ### Install (Without Docker)
 
 In this case you may want to install some database and change the information on settings.py
